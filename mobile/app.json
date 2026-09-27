@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "Workout Generator",
+    "slug": "workout-generator",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/workout-generator-icon.png",
+    "scheme": "workoutgenerator",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yhtcode.workoutgenerator",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.yhtcode.workoutgenerator",
+      "adaptiveIcon": {
+        "backgroundColor": "#06141B",
+        "foregroundImage": "./assets/images/workout-generator-mark.png"
+      },
+      "predictiveBackGestureEnabled": true
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/workout-generator-icon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#06141B",
+          "image": "./assets/images/workout-generator-mark.png",
+          "imageWidth": 96,
+          "dark": {
+            "backgroundColor": "#06141B",
+            "image": "./assets/images/workout-generator-mark.png"
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}

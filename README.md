@@ -54,9 +54,22 @@ app/          Application routes and global styles
 components/   Reusable application and UI components
 data/         Exercise data
 db/           Optional database schema and helpers
+mobile/       Native Expo app for iOS and Android
 public/       Static assets
 scripts/      Local development and build helpers
 ```
+
+## Native iOS and Android App
+
+The native application lives in `mobile/` and uses Expo SDK 57 with React Native and Expo Router.
+
+```bash
+cd mobile
+npm install
+npx expo start
+```
+
+See [`mobile/README.md`](mobile/README.md) for preview builds, production EAS builds, and App Store/Play Store submission commands.
 
 ## Local Data
 
